@@ -5,3 +5,6 @@ With a passion for technology and a commitment to empowering Military spouses an
 I then transitioned to AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders. My journey continued as a Language and Runtime Software Developer, where I contributed to open-source projects, managed infrastructure, and oversaw software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
 Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changelog, where we dive into the intricacies of infrastructure and DevOps, exploring everything that happens after a Git push. I believe in the power of community and collaboration, and I’m dedicated to making technology accessible to all. I've spoken at conferences like the GraceHopper Celebration, Apache World Part, SheBuilds, AWEsome, the Southern Califronia Linux Expo aka Scale, and Github Universe. I enjoy advocating and helping in my community, I sit on the Board of Directors for the Snohomish County United Way and am on the advocacy board. All thoughts are my own.
+
+
+Checkout Milspouse Coders <a href="here">[link text](https://milspousecoders.org)</a>
