@@ -1,4 +1,4 @@
-<span style="color:black">some *white* text</span>
+<span style="color:black"></span>
 <center>
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
 </center>
