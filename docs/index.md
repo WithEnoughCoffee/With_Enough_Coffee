@@ -1,5 +1,4 @@
-<a href="docs/assets/images/CMP_8142.jpg">
-
+<img src="docs/assets/images/CMP_8142.jpg" class="img-responsive" alt=""> </div>
 ![Photo of Autumn in woods](docs/assets/images/CMP_8142.jpg)
 
 With a passion for technology and a commitment to empowering Military spouses and women to through technology.  I began my career by teaching military spouses how to code through engaging "Coffee and Code" sessions in Virginia Beach. As the chapter leader, We successfully made Hackathons accessible virtually and in person to help Military Spouses have access from anywhere.  and forged a valuable partnership with Microsoft for our second annual event.
