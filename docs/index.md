@@ -1,4 +1,5 @@
 
+<center>
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
 
   
@@ -21,8 +22,8 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
     <img src="assets/images/1710874014854.jpeg" alt="Mountains" style="width:30%">
   </div>
   <div class="imgContainer">
-         <img src="/images/tv.gif"/ height="200" width="200"/>
 </div>
 
 
 Checkout Milspouse Coders <a href="here">[link text](https://milspousecoders.org)</a>
+</center>
