@@ -1,4 +1,4 @@
-<img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="500" alt="Autumn Standing in park"> </div>
+<div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="500" alt="Autumn Standing in park"> </div>
 
 Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, managed infrastructure, and oversaw software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
