@@ -20,6 +20,19 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   </div>
 </div>
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 I then transitioned to AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders. My journey continued as a Language and Runtime Software Developer, where I contributed to open-source projects, managed infrastructure, and oversaw software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
