@@ -1,4 +1,4 @@
-src="docs/assets/images/CMP_8142.jpg"
+<a href="docs/assets/images/CMP_8142.jpg">
 
 ![Photo of Autumn in woods](docs/assets/images/CMP_8142.jpg)
 
