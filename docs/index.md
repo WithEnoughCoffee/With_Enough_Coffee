@@ -2,7 +2,7 @@
 <html>
 
 
-<div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="500" alt="Autumn Standing in park"> </div>
+<div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="600" alt="Autumn Standing in park"> </div>
 
   
 <p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, managed infrastructure, and oversaw software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
@@ -34,10 +34,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 </style>
 </head>
 <body>
-
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
-
+  
 <div class="row">
   <div class="column">
     <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:30%">
