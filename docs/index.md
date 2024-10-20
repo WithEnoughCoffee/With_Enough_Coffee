@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+<style>
 
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="600" alt="Autumn Standing in park"> </div>
 
@@ -12,31 +13,12 @@ With a passion for technology and a commitment to empowering Military spouses an
 Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changelog, where we dive into the intricacies of infrastructure and DevOps, exploring everything that happens after a Git push. I believe in the power of community and collaboration, and I’m dedicated to making technology accessible to all. I've spoken at conferences like the GraceHopper Celebration, Apache World Part, SheBuilds, AWEsome, the Southern Califronia Linux Expo aka Scale, and Github Universe. I enjoy advocating and helping in my community, I sit on the Board of Directors for the Snohomish County United Way and am on the advocacy board. All thoughts are my own.
 </p>
 
-<head>
-<style>
-  
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
 <body>
   
-<div class="row">
-  <div class="column">
+<div class="image123">
+    <div class="imgContainer">
     <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:30%">
   </div>
   <div class="column">
@@ -45,27 +27,13 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   <div class="column">
     <img src="assets/images/1710874014854.jpeg" alt="Mountains" style="width:30%">
   </div>
+  <div class="imgContainer">
+         <img src="/images/tv.gif"/ height="200" width="200"/>
 </div>
-
-
+</style>
+</head>
 </body>
 </html>
-
-
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 
 Checkout Milspouse Coders <a href="here">[link text](https://milspousecoders.org)</a>
