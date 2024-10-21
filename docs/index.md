@@ -26,14 +26,12 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 </div>
 
 <div>
-<center>
 <div class="row">
     <div class="column">
     <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:46%">
   </div>
   
   </div>
-</center>
 
 <div>
 <div class="column">
