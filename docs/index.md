@@ -1,11 +1,11 @@
-<html>
-    
+<html> 
 <center>
 <header>
-<div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
-<title>
+<h1>
 Autumn Nash
-</title>
+</h1>
+<div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
+
 </header>
 <body bgcolor="grey">
 </center>
