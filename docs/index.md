@@ -28,7 +28,8 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   </div>
   <div class="imgContainer">
 </div>
-<div> Checkout Milspouse Coders <a> href="here">[link text](https://milspousecoders.org)</a> </div>
+<div> <a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>a>
+</div>
 
 </center>
 </body>
