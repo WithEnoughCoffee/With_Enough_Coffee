@@ -1,11 +1,4 @@
-code[class*="language-"], pre[class*="language-"]
-  border-radius: 6px
-  text-shadow: 0 1px #14161800 !important
-  background: #242424 !important
-  span.token.operator
-    background: none
-  span.token.keyword
-    color: #866cba
+<link rel="stylesheet" type="text/css" herf="With_Enough_Coffee/docs/style.css">
     
     
 <center>
