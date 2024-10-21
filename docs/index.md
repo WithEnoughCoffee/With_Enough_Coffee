@@ -10,7 +10,7 @@ Autumn Nash
 <body bgcolor="grey">
 </center>
   
-<p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, managed infrastructure, and oversaw software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
+<p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, built, automated and maintained infrastructure, and completed software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
 With a passion for technology and a commitment to empowering Military spouses and women to through technology.  I began my career by teaching military spouses how to code through engaging "Coffee and Code" sessions in Virginia Beach. As the chapter leader, We successfully made Hackathons accessible virtually and in person to help Military Spouses have access from anywhere.  and forged a valuable partnership with Microsoft for our second annual event.
 
