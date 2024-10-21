@@ -1,6 +1,6 @@
 <html> 
-<center>
 
+<center>
 <header>
 <h1 style="color:White;">
 Autumn Nash
@@ -35,8 +35,13 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   </div>
   <div class="imgContainer">
 </div>
-<a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>
 </center>
+
+<div>
+<a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>
+</div>
+
+
 
   
 </body>
