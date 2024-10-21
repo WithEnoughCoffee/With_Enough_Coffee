@@ -72,10 +72,10 @@ Ship It! 126: Kubernetes is an anti-platform</a> – Listen on <a href="https:/
 
 <h4> Panelist, mentor, speaker and Hackthon coach with Rewriting the code </h4>
 <div class="column">
-    <img src="assets/images/Screenshot 2023-08-07 at 4.10.36 PM.png" alt="standing on stage" style="width:25%">
+    <img src="assets/images/Screenshot 2023-08-07 at 4.10.36 PM.png" alt="standing on stage" style="width:50%">
   </div>
   <div class="column">
-    <img src="assets/images/Screenshot 2023-08-10 at 2.14.51 PM.png" alt="standing on stage" style="width:25%">
+    <img src="assets/images/Screenshot 2023-08-10 at 2.14.51 PM.png" alt="standing on stage" style="width:50%">
   </div>
 
 
