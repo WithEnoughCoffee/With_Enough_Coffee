@@ -20,7 +20,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 <center>
 <div class="image123">
     <div class="imgContainer">
-    <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:30%">
+    <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:45%">
   </div>
   <div class="column">
     <img src="assets/images/1710897068179.jpeg" alt="Forest" style="width:50%">
