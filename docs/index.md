@@ -12,7 +12,7 @@ Autumn Nash
 <div>
 <h2 style="color:White;">About Me </h2>
 </center>
-</div>div>
+</div>
 
 <div>
 <body style="background-color:Black;">
