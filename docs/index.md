@@ -49,7 +49,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 <h3> Speaking Engagements </h3>
 <h4> Scalex 21 </h4>
  <div class="column">
-    <img src="assets/images/710909280783.jpeg" alt="standing on stage" style="width:50%">
+    <img src="assets/images/1710909280783.jpeg" alt="standing on stage" style="width:50%">
   </div>
   <a href="https://www.youtube.com/watch?v=T0B5cnMVQ6I">YouTube video from Scale</a>
 </div>
