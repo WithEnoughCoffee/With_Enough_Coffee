@@ -1,4 +1,4 @@
-<span style="color:black"></span>
+<div style="background-color: rgb(50, 50, 50);">
 <center>
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
 </center>
@@ -27,3 +27,4 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 
 Checkout Milspouse Coders <a href="here">[link text](https://milspousecoders.org)</a>
 </center>
+</div>
