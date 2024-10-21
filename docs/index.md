@@ -29,15 +29,10 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 <div>
 <center>
 <div class="row">
-   <div class="column">
-    <img src="assets/images/1710897068179.jpeg" alt="Forest" style="width:50%">
-  </div>
     <div class="column">
     <img src="assets/images/1709920352022.jpeg"  alt="magazine cover" style="width:46%">
   </div>
-  <div class="column">
-    <img src="assets/images/1710874014854.jpeg" alt="giving talk at awesome" style="width:50%">
-  </div>
+  
   </div>
 </center>
 
@@ -53,5 +48,25 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   </div>
   <a href="https://www.youtube.com/watch?v=T0B5cnMVQ6I">YouTube video from Scale</a>
 </div>
+
+
+<h4> AWEsome </h4>
+<div class="column">
+    <img src="assets/images/1710874014854.jpeg" alt="giving talk at awesome" style="width:50%">
+  </div>
+
+<div class="column">
+    <img src="assets/images/1710897068179.jpeg" alt="Forest" style="width:50%">
+  </div>
+
+<h4> Panelist, mentor, speaker and Hackthon coach with Rewriting the code </h4>
+<div class="column">
+    <img src="assets/images/Screenshot 2023-08-10 at 2.14.51 PM.png" alt="standing on stage" style="width:50%">
+  </div>
+
+<h4> Spoke to the Onward 2 Opprtunity Military Spouse Cohort  </h4>
+<div class="column">
+    <img src="assets/images/Screenshot 2023-11-17 at 10.44.52 AM.png" alt="standing on stage" style="width:35%">
+  </div>
 
 </html>    
