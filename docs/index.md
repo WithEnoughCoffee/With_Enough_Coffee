@@ -7,7 +7,7 @@ Autumn Nash
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
 
 </header>
-<body bgcolor="grey">
+<body style="background-color:Black;">
   
 <p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, built, automated and maintained infrastructure, and completed software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
@@ -27,12 +27,8 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
     <img src="assets/images/1710874014854.jpeg" alt="Mountains" style="width:50%">
   </div>
   <div class="imgContainer">
-
-    
 </div>
-<div> <a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>
-</div>
-
+<a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>
 </center>
 </body>
 </html>    
