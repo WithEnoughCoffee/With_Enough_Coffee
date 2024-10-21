@@ -10,7 +10,7 @@ Autumn Nash
 </header>
 
 <div>
-<h2> style="color:White;" About Me </h2>
+<h2 style="color:White;">About Me </h2>
 </center>
 </div>div>
 
