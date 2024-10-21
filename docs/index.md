@@ -36,9 +36,8 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 </center>
 
 <div>
-<h3> ShiptIt! </h3>  
 <div class="column">
-  <h3> ShiptIt! </h3> 
+<h3> ShiptIt! </h3> 
     <img src="assets/images/Screenshot 2024-10-20 at 9.24.59 PM.png" alt="standing on stage" style="width:25%">
 
 <audio data-theme="night" data-src="https://changelog.com/shipit/126/embed" src="https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/126/ship-it-126.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/shipit/126">Ship It! 126: Kubernetes is an anti-platform</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p>
@@ -48,7 +47,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 
 <div>
 <h3> Speaking Engagements </h3>
-<h4> Scalex 21 </h4>
+<h4> Scale x21 </h4>
  <div class="column">
     <img src="assets/images/1710909280783.jpeg" alt="standing on stage" style="width:50%">
   </div>
