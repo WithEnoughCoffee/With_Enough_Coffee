@@ -37,8 +37,19 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 </center>
 
 <div>
+<h3> ShiptIt! </h3>  
+<div class="column">
+    <img src="assets/images/Screenshot 2024-10-20 at 9.24.59 PM.png" alt="standing on stage" style="width:50%">
+    <a href="https://changelog.com/shipit">You can listen to ShipIt here or any place you listen to most podcasts </a>
+<audio data-theme="night" data-src="https://changelog.com/shipit/126/embed" src="https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/126/ship-it-126.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/shipit/126">Ship It! 126: Kubernetes is an anti-platform</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p><script async src="//cdn.changelog.com/embed.js"></script>
+
+  </div>  
+</div>
+
+<div>
 <h3> Affliated Websites</h3>  
 </div>
+
 
 <div>
 <h3> Speaking Engagements </h3>
@@ -49,6 +60,9 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   <a href="https://www.youtube.com/watch?v=T0B5cnMVQ6I">YouTube video from Scale</a>
 </div>
 
+<div class="column">
+    <img src="assets/images/1710897068179.jpeg" alt="Forest" style="width:50%">
+  </div>
 
 <h4> AWEsome </h4>
 <div class="column">
@@ -69,7 +83,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 
 <h4> Spoke to the Onward 2 Opprtunity Military Spouse Cohort  </h4>
 <div class="column">
-    <img src="assets/images/Screenshot 2023-11-17 at 10.44.52 AM.png" alt="standing on stage" style="width:35%">
+    <img src="assets/images/Screenshot 2023-11-17 at 10.44.52 AM.png" alt="standing on stage" style="width:50%">
   </div>
 
 </html>    
