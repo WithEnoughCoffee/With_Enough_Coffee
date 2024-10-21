@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" herf="With_Enough_Coffee/docs/style.css">
     
     
 <center>
