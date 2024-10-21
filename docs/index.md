@@ -63,10 +63,13 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 <div class="column">
     <img src="assets/images/Screenshot 2023-08-10 at 2.14.51 PM.png" alt="standing on stage" style="width:50%">
   </div>
+  <div class="column">
+    <img src="assets/images/Screenshot 2023-08-10 at 2.14.51 PM.png" alt="standing on stage" style="width:50%">
+  </div>
 
 <h4> Spoke to the Onward 2 Opprtunity Military Spouse Cohort  </h4>
 <div class="column">
-    <img src="assets/images/Screenshot 2023-11-17 at 10.44.52 AM.png" alt="standing on stage" style="width:35%">
+    <img src="assets/images/Screenshot 2023-08-07 at 4.10.36 PM.png" alt="standing on stage" style="width:35%">
   </div>
 
 </html>    
