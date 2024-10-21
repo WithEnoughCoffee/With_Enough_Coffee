@@ -8,7 +8,6 @@ Autumn Nash
 
 </header>
 <body bgcolor="grey">
-</center>
   
 <p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, built, automated and maintained infrastructure, and completed software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
@@ -29,7 +28,8 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
   </div>
   <div class="imgContainer">
 </div>
-Checkout Milspouse Coders <a href="here">[link text](https://milspousecoders.org)</a>
+<div> Checkout Milspouse Coders <a> href="here">[link text](https://milspousecoders.org)</a> </div>
+
 </center>
 </body>
 </html>    
