@@ -1,13 +1,18 @@
 <html> 
 <center>
+
 <header>
 <h1>
 Autumn Nash
 </h1>
+  
 <div> <img src="assets/images/CMP_8142.jpg" class="img-responsive" width="300" height="450" alt="Autumn Standing in park"> </div>
-
 </header>
+
+<div>
 <body style="background-color:Black;">
+<h2> About Me </h2>
+</center>
   
 <p> Former AWS as a Specialist Solutions Architect, focusing on NoSQL databases, before taking the reins of the Greater Seattle area chapter of Milspouse Coders.Im Currently a Language and Runtime Software Developer, where I contributed to open-source projects, built, automated and maintained infrastructure, and completed software releases. I mentor young women through as a Rewriting the Code alumni, and a part of the Black Wing infinity group. 
 
@@ -15,7 +20,9 @@ With a passion for technology and a commitment to empowering Military spouses an
 
 Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changelog, where we dive into the intricacies of infrastructure and DevOps, exploring everything that happens after a Git push. I believe in the power of community and collaboration, and I’m dedicated to making technology accessible to all. I've spoken at conferences like the GraceHopper Celebration, Apache World Part, SheBuilds, AWEsome, the Southern Califronia Linux Expo aka Scale, and Github Universe. I enjoy advocating and helping in my community, I sit on the Board of Directors for the Snohomish County United Way and am on the advocacy board. All thoughts are my own.
 </p>
+</div>
 
+<center>
 <div class="image123">
    <div class="column">
     <img src="assets/images/1710897068179.jpeg" alt="Forest" style="width:50%">
@@ -30,5 +37,7 @@ Security is a key passion of mine, and I co-host the podcast "ShipIt" on Changel
 </div>
 <a href="here"https://milspousecoders.org/"> Checkout Milspouse Coders </a>
 </center>
+
+  
 </body>
 </html>    
