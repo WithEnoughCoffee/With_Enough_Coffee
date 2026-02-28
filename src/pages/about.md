@@ -73,5 +73,6 @@ Check out my [Sessionize profile](https://sessionize.com/autumn-nash/) to see my
 - <a href="https://www.fafo.fm"><img src="/logos/pager.png" alt="Fork Around and Find Out" style="height:1.2em; vertical-align:middle;" /></a> [Fork Around and Find Out](https://www.fafo.fm) — my podcast on tech lessons learned
 - 🦋 [Bluesky](https://bsky.app/profile/withenoughcoffee.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/autumnnash/)
+- 🐙 [GitHub](https://github.com/WithEnoughCoffee)
 
 </div>
