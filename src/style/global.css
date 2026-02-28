@@ -392,6 +392,49 @@ ul li time {
 	}
 }
 
+.subpage-main {
+	background: var(--white);
+	border: 1px solid var(--moretransblack);
+	border-radius: 12px;
+	padding: 2rem;
+	margin-top: 1rem;
+	box-shadow: 4px 4px 0 var(--pink), 8px 8px 0 var(--moretransblack);
+	position: relative;
+}
+
+.subpage-main::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 12px;
+	background:
+		radial-gradient(circle at 10% 20%, var(--moretransblack) 0%, transparent 50%),
+		radial-gradient(circle at 90% 80%, var(--moretransblack) 0%, transparent 50%);
+	pointer-events: none;
+	z-index: 0;
+}
+
+.subpage-main > * {
+	position: relative;
+	z-index: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+	.subpage-main {
+		background: var(--black);
+		border-color: var(--moretranswhite);
+		box-shadow: 4px 4px 0 var(--purple), 8px 8px 0 var(--moretranswhite);
+	}
+	.subpage-main::before {
+		background:
+			radial-gradient(circle at 10% 20%, var(--moretranswhite) 0%, transparent 50%),
+			radial-gradient(circle at 90% 80%, var(--moretranswhite) 0%, transparent 50%);
+	}
+}
+
 @media (max-width: 600px) {
 	nav a:not(:last-child) {
 		padding: 0;
