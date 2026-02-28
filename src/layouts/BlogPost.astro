@@ -14,14 +14,14 @@ let {
 	content: { title, description, added, updated, tags, heroImage },
 } = Astro.props;
 
-added = new Date(added).toLocaleDateString(
+added = added && added !== "nodate" ? new Date(added).toLocaleDateString(
 	"en-us",
 	{
 		year: "numeric",
 		month: "short",
 		day: "numeric",
 	}
-);
+) : null;
 
 if (updated) {
 	updated = new Date(updated).toLocaleDateString(

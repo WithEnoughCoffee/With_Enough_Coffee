@@ -7,7 +7,6 @@ import HomePosts from "../components/HomePosts.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import { title, subtitle } from "../settings/settings.json"
-import { Content as About } from "./about.md";
 import getTags from "../scripts/getTags";
 
 const posts = await getCollection("posts");
@@ -20,7 +19,16 @@ const tags = getTags(posts);
 	<body>
 		<Header title={title} />
 		<main>
-			<About />
+			<div style="text-align:center; margin:1rem 0;">
+				<img src="/profilephoto/dup2.jpeg" alt="Autumn" style="max-width:50%; height:auto; border-radius:8px;" />
+			</div>
+
+			<h2 style="text-align:center;">Hey, I'm Autumn! 👋</h2>
+			<p>I'm a software engineer at Microsoft Azure Linux specializing in Linux, security, data, and open source. I'm also a podcast co‑host, conference speaker, and mom of three, fueled by coffee, books, and tacos.</p>
+			<p>I've previously worked at AWS as a NoSQL Solutions Architect and Software Engineer on Amazon Corretto (Java), and earlier served as a Product Manager for Azure Linux Security. I'm active in the open‑source community, have been featured on CNBC, and was nominated for the Snohomish County Emerging Leaders Award.</p>
+			<p>Beyond my day job, I serve as Education Board Chair for MilSpouse Coders in Greater Seattle, mentor women and students in tech, and recently founded a nonprofit focused on addressing food insecurity. I co‑host the Fork Around and Find Out podcast and speak globally on AI ethics, data bias, cloud security, and diversity in tech.</p>
+			<p>When I'm not working, you'll find me chasing my kids, 3D printing, reading, or searching for the perfect taco—always with coffee in hand. ☕🌮</p>
+			<p class="center"><a href="/about">Read more about me →</a></p>
 
 			<div class="photo-stack">
 				<img src="/middle of the page/1575230287198.jpeg" alt="" loading="lazy" />

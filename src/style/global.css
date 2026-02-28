@@ -319,6 +319,79 @@ ul li time {
 	margin-bottom: 0.75rem;
 }
 
+.about-card {
+	border: 2px dashed var(--purple);
+	border-radius: 12px;
+	padding: 1.5rem;
+	background: linear-gradient(135deg, var(--moretransblack) 0%, transparent 50%, var(--moretransblack) 100%);
+	position: relative;
+}
+
+.about-card::before {
+	content: "< about />";
+	font-family: "Press Start 2P", monospace;
+	font-size: 0.6rem;
+	color: var(--teal);
+	position: absolute;
+	top: -0.5rem;
+	left: 1rem;
+	background: var(--white);
+	padding: 0 0.5rem;
+}
+
+.about-card h2 {
+	color: var(--pink);
+	text-shadow: 1px 1px 0 var(--moretransblack);
+}
+
+.about-card h3 {
+	color: var(--teal);
+	text-align: left;
+}
+
+.retro-callout {
+	border-left: 4px solid var(--pink);
+	background: var(--moretransblack);
+	padding: 1rem 1.5rem;
+	border-radius: 0 8px 8px 0;
+	margin: 1.5rem 0;
+}
+
+.retro-callout h3 {
+	margin: 0 0 0.5rem 0;
+	color: var(--hotpink);
+}
+
+.about-card ul {
+	list-style: none;
+	padding: 0;
+}
+
+.about-card ul li {
+	padding: 0.5rem 0;
+	border-bottom: 1px dashed var(--moretransblack);
+}
+
+.about-card ul li:last-child {
+	border-bottom: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	.about-card::before {
+		background: var(--black);
+		color: var(--teal);
+	}
+	.about-card {
+		background: linear-gradient(135deg, var(--moretranswhite) 0%, transparent 50%, var(--moretranswhite) 100%);
+	}
+	.retro-callout {
+		background: var(--moretranswhite);
+	}
+	.about-card ul li {
+		border-bottom-color: var(--moretranswhite);
+	}
+}
+
 @media (max-width: 600px) {
 	nav a:not(:last-child) {
 		padding: 0;
