@@ -14,7 +14,11 @@ Autumn is a Software Engineer at Microsoft Azure specializing in Linux security.
 
 Autumn co-hosts the exciting new "Fork Around and Find Out" podcast, sharing stories on tech lessons learned, with her previous co-host of the popular "Ship It!" podcast. A proud mom and "Rewriting the Code" alumni, Autumn serves as the Board Chair of Education at MilSpouse Coders, leading the chapter in the Greater Seattle Area, due to her advocacy for collaborative learning and community development.
 
-<p style="text-align:center; margin:1.5rem 0;"><img src="/middle of the page/Screenshot 2025-11-08 at 1.07.02 PM - Edited.png" alt="Autumn speaking at a conference" style="max-width:75%; height:auto; border-radius:8px;" /></p>
+<p style="text-align:center; margin:1.5rem 0;"><img src="/middle of the page/conference-talk.png" alt="Autumn speaking at a conference" style="max-width:75%; height:auto; border-radius:8px;" /></p>
+
+### 🎤 Want me to speak at your conference?
+
+Check out my [Sessionize profile](https://sessionize.com/autumn-nash/) to see my talks and invite me to your event!
 
 ### Find me elsewhere
 
