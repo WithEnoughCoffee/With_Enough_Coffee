@@ -1,0 +1,73 @@
+---
+const photos = [
+	"1575230287198.jpeg",
+	"1578833676961.jpeg",
+	"1632506318723.jpeg",
+	"1668495564523.jpeg",
+	"1691451926222.jpeg",
+	"1691705190502.jpeg",
+	"1695770051728.jpeg",
+	"1709920351379.jpeg",
+	"1710543136180.jpeg",
+	"1710793838690.jpeg",
+	"1710874014876.jpeg",
+	"1710897068184.jpeg",
+	"1710909538782.jpeg",
+	"1714945321039.jpeg",
+	"1730391761483.jpeg",
+	"1741337779860.jpeg",
+	"1741569176819.jpeg",
+	"1743432266466.jpeg",
+	"1745700863098.jpeg",
+	"1762637363987.jpeg",
+];
+---
+
+<div class="carousel-wrapper">
+	<div class="carousel-track">
+		{photos.map((photo) => (
+			<img src={`/otherphotos/${photo}`} alt="" loading="lazy" />
+		))}
+		{/* Duplicate for seamless loop */}
+		{photos.map((photo) => (
+			<img src={`/otherphotos/${photo}`} alt="" loading="lazy" />
+		))}
+	</div>
+</div>
+
+<style>
+	.carousel-wrapper {
+		overflow: hidden;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		padding: 1rem 0;
+	}
+
+	.carousel-track {
+		display: flex;
+		gap: 1rem;
+		width: max-content;
+		animation: scroll 60s linear infinite;
+	}
+
+	.carousel-track:hover {
+		animation-play-state: paused;
+	}
+
+	.carousel-track img {
+		height: 200px;
+		width: auto;
+		border-radius: 8px;
+		object-fit: cover;
+		flex-shrink: 0;
+	}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+</style>

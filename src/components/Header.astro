@@ -1,0 +1,33 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { title, subtitle } from "../settings/settings.json"
+
+---
+
+<header>
+	<div class="header-section">
+		<img src="/logos/coffee.png" alt="Coffee" class="header-logo" />
+		<div class="header-frame">
+			<h1>{title}</h1>
+			<h2>{subtitle}</h2>
+		</div>
+	</div>
+</header>
+<nav>
+	<HeaderLink href="/">home</HeaderLink>
+	<HeaderLink href="/posts">posts</HeaderLink>
+	<HeaderLink href="/about">about</HeaderLink>
+	<HeaderLink href="https://www.fafo.fm">fafo</HeaderLink>
+	<HeaderLink href="https://bsky.app/profile/withenoughcoffee.com">bluesky</HeaderLink>
+	<HeaderLink href="https://www.linkedin.com/in/autumnnash/">linkedin</HeaderLink>
+</nav>
+<style>
+	h2 {
+		margin: 0.5em 0;
+	}
+	.header-logo {
+		height: 110px;
+		width: auto;
+		margin-right: 1rem;
+	}
+</style>

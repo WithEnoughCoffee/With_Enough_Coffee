@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import HomePosts from "../components/HomePosts.astro";
+import ColorScript from "../components/ColorScript.astro";
+import Tags from "../components/Tags.astro";
+import { title, subtitle } from "../settings/settings.json"
+import { Content as About } from "./about.md";
+import getTags from "../scripts/getTags";
+
+const posts = await getCollection("posts");
+const tags = getTags(posts);
+---
+
+<!doctype html>
+<html lang="en-us">
+	<BaseHead title={title} description={subtitle} />
+	<body>
+		<Header title={title} />
+		<main>
+			<About />
+
+			<div class="photo-stack">
+				<img src="/middle of the page/1575230287198.jpeg" alt="" loading="lazy" />
+				<img src="/middle of the page/1668495564523.jpeg" alt="" loading="lazy" />
+			</div>
+
+			<br />
+
+			<h3>Here's my most recent posts</h3>
+
+			<HomePosts allPosts={posts} />
+
+			<div class="photo-grid three">
+				<img src="/middle of the page/1695770051728.jpeg" alt="" loading="lazy" />
+				<img src="/middle of the page/1710793838690.jpeg" alt="" loading="lazy" />
+				<img src="/middle of the page/1710897068184.jpeg" alt="" loading="lazy" />
+			</div>
+
+			<p class="center">
+				You can also <a href="https://blahg.netlify.app/rss.xml">
+					subscribe with RSS!
+				</a>
+			</p>
+			<br />
+
+			<Tags tags={tags} all />
+		</main>
+		<Footer />
+		<ColorScript />
+	</body>
+</html>
