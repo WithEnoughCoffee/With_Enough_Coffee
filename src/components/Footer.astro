@@ -5,11 +5,41 @@ const today = new Date();
 <footer>
 	<p>Thanks Cassidy for the rad template!</p>
 	&copy; {today.getFullYear()} cassidoo. <a href="https://github.com/cassidoo/blahg">This blog is open source</a>! <3
+	<hr class="footer-divider" />
+	<p class="disclaimer">
+		Any views or opinions expressed here are strictly my own and not those of my employer (or any past employer). Blogging is not my job for that vendor; it's my personal passion. As this is a personal blog, not a corporate blog, I am solely responsible for all content published here. Content published here is not read, reviewed, or approved in advance by my employer and does not necessarily represent or reflect the views or opinions of my employer or any of its divisions, subsidiaries, or business partners.*
+	</p>
+	<p class="disclaimer-attr">
+		* disclaimer shamefully stolen from Duffie Cooley who stole it from colleague Scott Lowe who got it from John Harris
+	</p>
+	<p class="copyright">
+		&copy; 2026 Autumn Nash CC BY-NC 4.0
+	</p>
 </footer>
 <style>
 	footer {
 		padding: 25px;
 		text-align: center;
 		font-size: 0.8rem;
+	}
+	.footer-divider {
+		margin: 1.5rem 0;
+	}
+	.disclaimer {
+		font-size: 0.75rem;
+		color: #888;
+		line-height: 1.6;
+		text-align: left;
+	}
+	.disclaimer-attr {
+		font-size: 0.7rem;
+		color: #999;
+		font-style: italic;
+		text-align: left;
+	}
+	.copyright {
+		font-size: 0.75rem;
+		color: #888;
+		margin-top: 1rem;
 	}
 </style>
