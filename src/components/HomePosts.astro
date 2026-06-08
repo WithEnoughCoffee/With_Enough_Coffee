@@ -1,9 +1,7 @@
 ---
 import Post from "../components/Post.astro";
 
-const { allPosts } = Astro.props;
-
-//.sort(() => 0.5 - Math.random()).slice(0, 3);
+const { allPosts, count = 5 } = Astro.props;
 
 let posts = allPosts
 	.sort(
@@ -11,7 +9,7 @@ let posts = allPosts
 			new Date(b.data.updated || b.data.added).valueOf() -
 			new Date(a.data.updated || a.data.added).valueOf(),
 	)
-	.slice(0, 5);
+	.slice(0, count);
 ---
 
 <content>

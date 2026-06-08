@@ -1,12 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-import BaseHead from "../../components/BaseHead.astro";
-import Header from "../../components/Header.astro";
-import Footer from "../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import Post from "../../components/Post.astro";
-import ColorScript from "../../components/ColorScript.astro";
-
-import { title, subtitle } from "../../settings/settings.json"
 
 export async function getStaticPaths() {
 	let posts = await getCollection("posts");
@@ -39,27 +34,18 @@ let sortedPosts = tag.sort(
 );
 ---
 
-<!DOCTYPE html>
-<html lang="en-us">
-	<BaseHead title={title} description={subtitle} />
-	<body>
-		<Header />
-		<main>
-			<content>
-				<h3>Posts tagged with "{currentTag}"</h3>
-				<ul class="tags-list">
-					{
-						sortedPosts.map(
-							({
-								url,
-								data: { description, slug, title, tags, added: date },
-							}) => <Post {url} {description} {date} {slug} {title} {tags} />
-						)
-					}
-				</ul>
-			</content>
-			<Footer />
-		</main>
-		<ColorScript />
-	</body>
-</html>
+<BaseLayout>
+	<content>
+		<h3>Posts tagged with "{currentTag}"</h3>
+		<ul class="tags-list">
+			{
+				sortedPosts.map(
+					({
+						url,
+						data: { description, slug, title, tags, added: date },
+					}) => <Post {url} {description} {date} {slug} {title} {tags} />
+				)
+			}
+		</ul>
+	</content>
+</BaseLayout>

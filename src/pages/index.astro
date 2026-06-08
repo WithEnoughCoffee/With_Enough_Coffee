@@ -1,64 +1,54 @@
 ---
 import { getCollection } from "astro:content";
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import HomePosts from "../components/HomePosts.astro";
-import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
-import { title, subtitle } from "../settings/settings.json"
 import getTags from "../scripts/getTags";
+import homepage from "../settings/homepage.yml";
 
 const posts = await getCollection("posts");
 const tags = getTags(posts);
 ---
 
-<!doctype html>
-<html lang="en-us">
-	<BaseHead title={title} description={subtitle} />
-	<body>
-		<Header title={title} />
-		<main>
-			<div style="text-align:center; margin:1rem 0;">
-				<img src="/profilephoto/dup2.jpeg" alt="Autumn" style="max-width:50%; height:auto; border-radius:8px;" />
-			</div>
+<BaseLayout>
+	<div class="center hero-photo">
+		<img
+			src={homepage.profilePhoto}
+			alt="Autumn"
+			class="profile-photo"
+		/>
+	</div>
 
-			<h2 style="text-align:center;">Hey, I'm Autumn! 👋</h2>
-			<p>I'm a software engineer at Microsoft Azure Linux specializing in Linux, security, data, and open source. I'm also a podcast co‑host, conference speaker, and mom of three, fueled by coffee, books, and tacos.</p>
-			<p>I've previously worked at AWS as a NoSQL Solutions Architect and Software Engineer on Amazon Corretto (Java), and earlier served as a Product Manager for Azure Linux Security. I'm active in the open‑source community, have been featured on CNBC, and was nominated for the Snohomish County Emerging Leaders Award.</p>
-			<p>Beyond my day job, I serve as Education Board Chair for MilSpouse Coders in Greater Seattle, mentor women and students in tech, and recently founded a nonprofit focused on addressing food insecurity. I co‑host the Fork Around and Find Out podcast and speak globally on AI ethics, data bias, cloud security, and diversity in tech.</p>
-			<p>When I'm not working, you'll find me chasing my kids, 3D printing, reading, or searching for the perfect taco—always with coffee in hand. <span style="font-size:2rem;">☕🌮</span></p>
-			<p class="center"><a href="/about">Read more about me →</a></p>
+	<h2 class="center">{homepage.greeting}</h2>
+	{homepage.bio.map((paragraph) => <p>{paragraph}</p>)}
+	<p class="center"><a href="/about">{homepage.aboutLinkText}</a></p>
 
-			<div class="photo-stack">
-				<img src="/middle of the page/1575230287198.jpeg" alt="" loading="lazy" />
-				<img src="/middle of the page/1668495564523.jpeg" alt="" loading="lazy" />
-			</div>
+	<div class="photo-stack">
+		{homepage.middlePhotos.map((photo) => (
+			<img src={photo.src} alt={photo.alt} loading="lazy" />
+		))}
+	</div>
 
-			<br />
+	<br />
 
-			<h3>Here's my most recent posts</h3>
+	<h3>Here's my most recent posts</h3>
 
-			<HomePosts allPosts={posts} />
+	<HomePosts allPosts={posts} count={homepage.recentPostCount} />
 
-			<div class="photo-grid three">
-				<img src="/middle of the page/1695770051728.jpeg" alt="" loading="lazy" />
-				<img src="/middle of the page/1710793838690.jpeg" alt="" loading="lazy" />
-				<img src="/middle of the page/1710897068184.jpeg" alt="" loading="lazy" />
-			</div>
+	<div class="photo-grid three">
+		{homepage.bottomPhotos.map((photo) => (
+			<img src={photo.src} alt={photo.alt} loading="lazy" />
+		))}
+	</div>
 
-			<p class="center">
-				You can also <a href="https://blahg.netlify.app/rss.xml">
-					subscribe with RSS!
-				</a>
-			</p>
-			<br />
+	<p class="center">
+		You can also <a href="/rss.xml">subscribe with RSS!</a>
+	</p>
+	<br />
 
-			<p class="center" style="margin:1.5rem 0;"><img src="/logos/pinkcomputer.png" alt="" style="height:80px;" /></p>
+	<p class="center logo-divider">
+		<img src="/logos/pinkcomputer.png" alt="" class="section-logo" />
+	</p>
 
-			<Tags tags={tags} all />
-		</main>
-		<Footer />
-		<ColorScript />
-	</body>
-</html>
+	<Tags tags={tags} all />
+</BaseLayout>

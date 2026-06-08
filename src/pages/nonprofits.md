@@ -14,8 +14,8 @@ Giving back is at the heart of everything I do. Here are the organizations I'm p
 
 ---
 
-<div style="text-align:center; margin:1.5rem 0;">
-<img src="/logos/littleguild.jpg" alt="The Little Guild" style="height:100px; border-radius:8px;" />
+<div class="center-block">
+<img src="/logos/littleguild.jpg" alt="The Little Guild" class="org-logo" />
 </div>
 
 ### The Little Guild
@@ -30,13 +30,13 @@ We believe strong communities grow from compassion. Our mission is to bring Ever
 
 ---
 
-<div style="text-align:center; margin:1.5rem 0;">
-<img src="/logos/milspousecoders.png" alt="MilSpouse Coders" style="height:100px;" />
+<div class="center-block">
+<img src="/logos/milspousecoders.png" alt="MilSpouse Coders" class="org-logo" />
 </div>
 
 ### MilSpouse Coders
 
-<p style="text-align:center; margin:1.5rem 0;"><img src="/middle of the page/1575230287198.jpeg" alt="MilSpouse Coders in Military Families Magazine" style="max-width:75%; height:auto; border-radius:8px;" /></p>
+<p class="center-block"><img src="/middle of the page/1575230287198.jpeg" alt="MilSpouse Coders in Military Families Magazine" class="content-photo" /></p>
 
 MilSpouse Coders is dedicated to empowering military spouses around the globe to find challenging and fulfilling careers in technology. I serve as the **Board Chair of Education**, leading the chapter in the Greater Seattle Area.
 

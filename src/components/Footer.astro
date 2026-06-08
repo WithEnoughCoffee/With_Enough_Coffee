@@ -1,10 +1,11 @@
 ---
-const today = new Date();
+import site from "../settings/site.yml";
+const year = new Date().getFullYear();
 ---
 
 <footer>
 	<p>Thanks Cassidy for the rad template!</p>
-	&copy; {today.getFullYear()} cassidoo. <a href="https://github.com/cassidoo/blahg">This blog is open source</a>! <3
+	&copy; {year} cassidoo. <a href="https://github.com/cassidoo/blahg">This blog is open source</a>! <3
 	<hr class="footer-divider" />
 	<p class="disclaimer">
 		Any views or opinions expressed here are strictly my own and not those of my employer (or any past employer). Blogging is not my job for that vendor; it's my personal passion. As this is a personal blog, not a corporate blog, I am solely responsible for all content published here. Content published here is not read, reviewed, or approved in advance by my employer and does not necessarily represent or reflect the views or opinions of my employer or any of its divisions, subsidiaries, or business partners.*
@@ -13,7 +14,7 @@ const today = new Date();
 		* disclaimer shamefully stolen from Duffie Cooley who stole it from colleague Scott Lowe who got it from John Harris
 	</p>
 	<p class="copyright">
-		&copy; 2026 Autumn Nash CC BY-NC 4.0
+		&copy; {year} {site.author} {site.copyright}
 	</p>
 </footer>
 <style>

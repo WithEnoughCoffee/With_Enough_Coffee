@@ -1,0 +1,31 @@
+# Homepage content
+# Edit this file to update what shows on the main page
+
+profilePhoto: /profilephoto/dup2.jpeg
+greeting: "Hey, I'm Autumn! 👋"
+
+bio:
+  - "I'm a software engineer at Microsoft Azure Linux specializing in Linux, security, data, and open source. I'm also a podcast co‑host, conference speaker, and mom of three, fueled by coffee, books, and tacos."
+  - "I've previously worked at AWS as a NoSQL Solutions Architect and Software Engineer on Amazon Corretto (Java), and earlier served as a Product Manager for Azure Linux Security. I'm active in the open‑source community, have been featured on CNBC, and was nominated for the Snohomish County Emerging Leaders Award."
+  - "Beyond my day job, I serve as Education Board Chair for MilSpouse Coders in Greater Seattle, mentor women and students in tech, and recently founded a nonprofit focused on addressing food insecurity. I co‑host the Fork Around and Find Out podcast and speak globally on AI ethics, data bias, cloud security, and diversity in tech."
+  - "When I'm not working, you'll find me chasing my kids, 3D printing, reading, or searching for the perfect taco—always with coffee in hand. ☕🌮"
+
+aboutLinkText: "Read more about me →"
+
+# Photos shown between sections
+middlePhotos:
+  - src: /middle of the page/1575230287198.jpeg
+    alt: ""
+  - src: /middle of the page/1668495564523.jpeg
+    alt: ""
+
+bottomPhotos:
+  - src: /middle of the page/1695770051728.jpeg
+    alt: ""
+  - src: /middle of the page/1710793838690.jpeg
+    alt: ""
+  - src: /middle of the page/1710897068184.jpeg
+    alt: ""
+
+# Number of recent posts to show
+recentPostCount: 5

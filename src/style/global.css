@@ -440,3 +440,67 @@ ul li time {
 		padding: 0;
 	}
 }
+
+/* Utility classes for content pages */
+.hero-photo {
+	margin: 1rem 0;
+}
+
+.profile-photo {
+	max-width: 50%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.section-logo {
+	height: 80px;
+}
+
+.logo-divider {
+	margin: 1.5rem 0;
+}
+
+.content-photo {
+	max-width: 75%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.content-photo-full {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.inline-logo {
+	height: 62px;
+	border-radius: 6px;
+}
+
+.inline-icon {
+	height: 1.2em;
+	vertical-align: middle;
+}
+
+.logo-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.org-logo {
+	height: 100px;
+	border-radius: 8px;
+}
+
+.center-block {
+	text-align: center;
+	margin: 1.5rem 0;
+}
+
+.width-75 {
+	width: 75%;
+	margin: 0 auto;
+}

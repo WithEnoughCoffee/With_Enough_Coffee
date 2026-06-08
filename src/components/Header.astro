@@ -1,27 +1,28 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import { title, subtitle } from "../settings/settings.json"
-
+import site from "../settings/site.yml";
+import navLinks from "../settings/navigation.yml";
 ---
 
 <header>
 	<div class="header-section">
 		<img src="/logos/coffee.png" alt="Coffee" class="header-logo" />
 		<div class="header-frame">
-			<h1>{title}</h1>
-			<h2>{subtitle}</h2>
+			<h1>{site.title}</h1>
+			<h2>{site.subtitle}</h2>
 		</div>
 	</div>
 </header>
 <nav>
-	<HeaderLink href="/">home</HeaderLink>
-	<HeaderLink href="/posts">posts</HeaderLink>
-	<HeaderLink href="/about">about</HeaderLink>
-	<HeaderLink href="/nonprofits">nonprofits</HeaderLink>
-	<HeaderLink href="https://www.fafo.fm">fafo</HeaderLink>
-	<HeaderLink href="https://bsky.app/profile/withenoughcoffee.com">bluesky</HeaderLink>
-	<HeaderLink href="https://www.linkedin.com/in/autumnnash/">linkedin</HeaderLink>
-	<HeaderLink href="https://github.com/WithEnoughCoffee">github</HeaderLink>
+	{navLinks.map((link) => (
+		<HeaderLink
+			href={link.href}
+			target={link.external ? "_blank" : undefined}
+			rel={link.external ? "noopener noreferrer" : undefined}
+		>
+			{link.label}
+		</HeaderLink>
+	))}
 </nav>
 <style>
 	h2 {

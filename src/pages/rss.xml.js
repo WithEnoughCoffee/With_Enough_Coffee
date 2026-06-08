@@ -1,6 +1,6 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
-import { title, subtitle } from "../settings/settings.json";
+import site from "../settings/site.yml";
 
 let posts = await getCollection("posts");
 
@@ -12,8 +12,8 @@ posts = posts.sort(
 
 export const GET = () =>
 	rss({
-		title: title || "",
-		description: subtitle || "",
+		title: site.title || "",
+		description: site.subtitle || "",
 		site: import.meta.env.SITE,
 		items: posts.map((post) => {
 			return {

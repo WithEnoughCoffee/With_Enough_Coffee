@@ -1,0 +1,31 @@
+# Navigation links
+# Add or remove items here to update the site nav
+# External links open in a new tab automatically
+
+- label: home
+  href: /
+
+- label: posts
+  href: /posts
+
+- label: about
+  href: /about
+
+- label: nonprofits
+  href: /nonprofits
+
+- label: fafo
+  href: https://www.fafo.fm
+  external: true
+
+- label: bluesky
+  href: https://bsky.app/profile/withenoughcoffee.com
+  external: true
+
+- label: linkedin
+  href: https://www.linkedin.com/in/autumnnash/
+  external: true
+
+- label: github
+  href: https://github.com/WithEnoughCoffee
+  external: true

@@ -1,0 +1,18 @@
+# Social links
+# Used in footer and anywhere social icons are needed
+
+- platform: bluesky
+  url: https://bsky.app/profile/withenoughcoffee.com
+  label: Bluesky
+
+- platform: linkedin
+  url: https://www.linkedin.com/in/autumnnash/
+  label: LinkedIn
+
+- platform: github
+  url: https://github.com/WithEnoughCoffee
+  label: GitHub
+
+- platform: podcast
+  url: https://www.fafo.fm
+  label: Fork Around and Find Out

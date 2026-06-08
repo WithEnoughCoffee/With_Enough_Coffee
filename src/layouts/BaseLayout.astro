@@ -1,0 +1,22 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ColorScript from "../components/ColorScript.astro";
+import site from "../settings/site.yml";
+
+const { title = site.title, description = site.subtitle } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en-us">
+	<BaseHead title={title} description={description} />
+	<body>
+		<Header />
+		<main>
+			<slot />
+		</main>
+		<Footer />
+		<ColorScript />
+	</body>
+</html>

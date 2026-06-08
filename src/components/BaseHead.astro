@@ -1,8 +1,7 @@
 ---
 import "../style/fonts.css";
 import "../style/global.css";
-
-import { title as SITE_TITLE } from "../settings/settings.json"
+import site from "../settings/site.yml";
 
 const { title, description, image = "/logos/withEnoughCoffee.JPG" } = Astro.props;
 ---
@@ -42,7 +41,7 @@ const { title, description, image = "/logos/withEnoughCoffee.JPG" } = Astro.prop
 		rel="alternate"
 		href="/rss.xml"
 		type="application/rss+xml"
-		title={SITE_TITLE}
+		title={site.title}
 	/>
 
 	<!-- Sitemap -->
