@@ -1,3 +1,4 @@
+---
  title: "So You've Summoned an AI - Now What?"
  slug: so-youve-summoned-an-ai-now-what
  description: >-
@@ -6,6 +7,7 @@
    - AI
    - developer-tools
  added: "Jun 8 2026"
+---
 
 
 #So You've Summoned an AI - Now what?
@@ -90,4 +92,3 @@ Make your AI take notes, too, so both you and the AI can remember your trade-off
 I've been on this journey for about a year, and honestly, it was hard. Using AI to spit out a bunch of code was easy. Getting to a point where you can use it well is hard.
 
 Developing and maintaining style, quality, and good engineering practices while making sure you're still learning is challenging. Most importantly, context is everything.
-
