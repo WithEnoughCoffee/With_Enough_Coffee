@@ -112,13 +112,39 @@ body.dark-mode nav::after {
 	}
 }
 
-h2,
-h3,
-h4,
+h1 {
+	font-size: 1.75rem;
+	line-height: 1.4;
+	margin: 1.5rem 0 1rem;
+}
+
+h2 {
+	font-size: 1.1rem;
+	line-height: 1.4;
+	margin: 2rem 0 0.75rem;
+	color: var(--gray);
+}
+
+h3 {
+	font-size: 0.9rem;
+	line-height: 1.5;
+	margin: 1.75rem 0 0.6rem;
+	color: var(--gray);
+}
+
+h4 {
+	font-size: 0.8rem;
+	line-height: 1.5;
+	margin: 1.5rem 0 0.5rem;
+	color: var(--gray);
+}
+
 h5,
 h6 {
+	font-size: 0.75rem;
+	line-height: 1.5;
+	margin: 1.25rem 0 0.5rem;
 	color: var(--gray);
-	line-height: 1.1;
 }
 
 header {
@@ -208,7 +234,7 @@ input {
 }
 main,
 content {
-	line-height: 1.6;
+	line-height: 1.7;
 }
 table {
 	width: 100%;
@@ -246,6 +272,7 @@ h2 {
 
 h3 {
 	text-align: center;
+	font-weight: 400;
 }
 
 .center {
@@ -268,8 +295,8 @@ article :not(.article-title) {
 }
 
 .article-title {
-	font-size: 2em;
-	margin: 0.25em 0;
+	font-size: 1.75rem;
+	margin: 0.5em 0 0.25em;
 }
 
 .blog-post {
@@ -277,7 +304,13 @@ article :not(.article-title) {
 }
 
 .blog-post > * + * {
-	margin-block-start: 1em;
+	margin-block-start: 1.25em;
+}
+
+.blog-post > h2 + *,
+.blog-post > h3 + *,
+.blog-post > h4 + * {
+	margin-block-start: 0.5em;
 }
 
 time {
