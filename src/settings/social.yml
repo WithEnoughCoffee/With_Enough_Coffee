@@ -2,7 +2,7 @@
 # Used in footer and anywhere social icons are needed
 
 - platform: bluesky
-  url: https://bsky.app/profile/withenoughcoffee.com
+  url: https://bsky.app/profile/withenoughcoffee.bsky.social
   label: Bluesky
 
 - platform: linkedin

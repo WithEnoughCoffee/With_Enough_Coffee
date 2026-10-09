@@ -10,7 +10,7 @@ added: "Feb 27 2026"
 
 Welcome to **With Enough Coffee**! ☕
 
-I'm Autumn, a Software Engineer at Microsoft Azure, and this is my new corner of the internet where I'll be writing about tech, open source, community, and all the lessons learned along the way.
+I'm Autumn, a Software Engineer, and this is my new corner of the internet where I'll be writing about tech, open source, community, and all the lessons learned along the way.
 
 <!-- Feel free to edit this post or delete it and write your own! -->
 
