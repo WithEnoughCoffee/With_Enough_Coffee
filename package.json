@@ -10,7 +10,7 @@
 		"astro": "astro"
 	},
 	"devDependencies": {
-		"@astrojs/rss": "^4.0.15",
+		"@astrojs/rss": "^4.0.19",
 		"@astrojs/sitemap": "^3.7.0",
 		"astro": "^7.3.8",
 		"js-yaml": "^4.2.0",
