@@ -1,5 +1,5 @@
 ---
-title: Building Spellforge: How a Group Chat, a Used Server, and Too Much Coffee Built my Homelab
+title: "Building Spellforge: How a Group Chat, a Used Server, and Too Much Coffee Built my Homelab"
 slug: spellforge1
 description: >-
   Building a Homelab on a budget
