@@ -29,17 +29,27 @@ Naturally this meant organizing a nerd outing in the group chat. We came up with
 
 
 ## A Nerdy Treasure Hunt Begins
-![RE-PC](/spellforge1photos/CA007890-E7F2-462B-8A31-75235E04CF6E_1_105_c.jpeg)
+
+<div class="photo-grid">
+	<img src="/spellforge1photos/CA007890-E7F2-462B-8A31-75235E04CF6E_1_105_c.jpeg" alt="RE-PC storefront in Seattle" loading="lazy" />
+	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.16.49%E2%80%AFPM.png" alt="Inside the RE-PC computer store" loading="lazy" />
+</div>
 
 RE-PC is one of the oldest and largest computer retail recyclers has two in person locations and an online shop. The store is staffed with really knowledgeable professionals to help you find what your looking for. You can both buy and sell computer parts. They have everything from vintage radios and projectors to hard to find components.
 
-![RE-PC Floor](/spellforge1photos/Screenshot 2026-10-12 at 6.16.49 PM.png)
-![RE-PC photo1](/spellforge1photos/Screenshot 2026-10-12 at 6.12.22 PM.png)
+<div class="photo-grid">
+	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.11.35%E2%80%AFPM.png" alt="Aisles of electronics and computer parts at RE-PC" loading="lazy" />
+	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.15.36%E2%80%AFPM.png" alt="The main aisle inside RE-PC" loading="lazy" />
+</div>
 
 If I’m being honest, I had no idea what I was looking for, so brining friends was a very good decision.
 
 In the back of the store they had a really neat little computer museum. You can’t complain when a shopping trip for parts turns into a impromptu history lesson.
-![RE-pc computer museum](/spellforge1photos/348s.jpg)
+
+<div class="photo-grid">
+	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.12.22%E2%80%AFPM.png" alt="The RE-PC Computer Museum" loading="lazy" />
+	<img src="/spellforge1photos/348s.jpg" alt="Vintage computers on display at RE-PC" loading="lazy" />
+</div>
 
 
 ## What I scored:
@@ -53,12 +63,18 @@ HPE Ethernet 1Gb 2-port 332i Adapter
 Integrated HPE iLO 5 management
 USB boot media running Unraid
 
-![Hpe server](/spellforge1photos/Screenshot 2026-10-13 at 1.26.09 PM.png)
+<div class="photo-grid">
+	<img src="/spellforge1photos/Screenshot%202026-10-13%20at%201.26.09%E2%80%AFPM.png" alt="Front and rear views of the HPE ProLiant ML110 Gen10" loading="lazy" />
+	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.17.27%E2%80%AFPM.png" alt="Used servers available at RE-PC" loading="lazy" />
+</div>
 
 Storage:
 I got 3 x 1 TB 2.5 SATA HDDs $19.95 each.
 
-![HDD Storage](/spellforge1photos/B99747D4-CE85-48D0-B38D-B1AEB227A76F_1_105_c.jpeg)
+<div class="photo-grid">
+	<img src="/spellforge1photos/B99747D4-CE85-48D0-B38D-B1AEB227A76F_1_105_c.jpeg" alt="A 2.5-inch hard drive beside pink 3D-printed caddy prototypes" loading="lazy" />
+	<img src="/spellforge1photos/9BF478F2-382E-427E-8CA3-999065107304_1_105_c.jpeg" alt="A 1 TB hard drive and drive caddy" loading="lazy" />
+</div>
 
 ## Summoning the Software
 
@@ -78,6 +94,8 @@ I'll be using the Tailscale plugin to access Spellforge remotely. It took less t
 Ya’ll this is the part where I considered chucking the box out the window.
 
 Installing the hard drives turned into an ordeal of its own. First, finding compatible drive caddies was surprisingly difficult. Then came the fun part: trying to match the drives to the bays and figure out whether everything would actually fit and work.
+
+<p class="photo-stack"><img src="/spellforge1photos/17DCA059-20A2-484E-AF31-FDFF1F3287CB_1_105_c.jpeg" alt="Measuring the server's drive bays while checking caddy fit" loading="lazy" /></p>
 
 I was genuinely worried about damaging the drives. Over the course of several weeks, I 3D-printed multiple caddy designs (I’m really sad they didn't work because I may or may not have printed them in bright pink) and bought two more on Amazon.
 
