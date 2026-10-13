@@ -22,12 +22,17 @@
 	background-color: var(--purple);
 	color: var(--white);
 }
-html,
+html {
+	min-height: 100%;
+	background-color: var(--black);
+}
 body {
-	margin: auto;
+	box-sizing: border-box;
+	min-height: 100vh;
+	margin: 0 auto;
 	padding: 20px;
 	max-width: 70ch;
-	background-color: var(--black);
+	background-color: transparent;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: var(--white);
@@ -58,7 +63,7 @@ button.dark-mode button {
 	color: var(--white);
 }
 body.dark-mode nav {
-	background: var(--transblack);
+	background: var(--black);
 }
 body.dark-mode nav::after {
 	border-bottom-color: var(--teal);
@@ -90,7 +95,7 @@ body.dark-mode nav::after {
 		color: var(--white);
 	}
 	body nav {
-		background: var(--transblack);
+		background: var(--black);
 	}
 	body nav::after {
 		border-bottom-color: var(--teal);
@@ -165,16 +170,18 @@ nav {
 	position: sticky;
 	top: 0;
 	text-align: center;
-	background: var(--transblack);
+	background: var(--black);
 	-webkit-backdrop-filter: blur(6px);
 	backdrop-filter: blur(6px);
 	border-bottom: none;
 	padding: 4px 0;
 	text-transform: lowercase;
 	letter-spacing: 0.1em;
+	z-index: 10;
 }
 
 nav a {
+	color: var(--white);
 	margin: 25px 0;
 }
 nav a:not(:last-child) {
