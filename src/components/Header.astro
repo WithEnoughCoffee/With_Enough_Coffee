@@ -6,7 +6,9 @@ import navLinks from "../settings/navigation.yml";
 
 <header>
 	<div class="header-section">
-		<img src="/logos/coffee.png" alt="Coffee" class="header-logo" />
+		<a class="header-logo-link" href="/" aria-label="With Enough Coffee home">
+			<img src="/logos/withEnoughCoffee.JPG" alt="With Enough Coffee" class="header-logo" />
+		</a>
 		<div class="header-frame">
 			<h1>{site.title}</h1>
 			<h2>{site.subtitle}</h2>
@@ -29,8 +31,10 @@ import navLinks from "../settings/navigation.yml";
 		margin: 0.5em 0;
 	}
 	.header-logo {
-		height: 110px;
-		width: auto;
+		display: block;
+		height: 130px;
+		width: 130px;
+		object-fit: contain;
 		margin-right: 1rem;
 	}
 </style>

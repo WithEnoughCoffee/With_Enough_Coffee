@@ -54,6 +54,9 @@ if (updated) {
 				<div class="blog-post">
 					<slot />
 				</div>
+				<footer class="post-footer" aria-label="End of post">
+					<img src="/logos/coffee.png" alt="" loading="lazy" />
+				</footer>
 			</article>
 		</main>
 		<Tags tags={allTags} all />
@@ -61,3 +64,19 @@ if (updated) {
 		<ColorScript />
 	</body>
 </html>
+
+<style>
+	.post-footer {
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		padding-top: 1rem;
+		border-top: 1px dashed var(--moretranswhite);
+	}
+
+	.post-footer img {
+		width: 56px;
+		height: 56px;
+		object-fit: contain;
+	}
+</style>

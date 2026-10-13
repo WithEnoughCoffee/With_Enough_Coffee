@@ -7,10 +7,10 @@
 	--white: #faf5ff;
 	--transwhite: rgba(250, 245, 255, 0.85);
 	--moretranswhite: rgba(250, 245, 255, 0.15);
-	--black: #1a0a2e;
+	--black: #000000;
 	--transblack: rgba(26, 10, 46, 0.85);
 	--moretransblack: rgba(26, 10, 46, 0.1);
-	--gray: #7b6b8a;
+	--gray: #b8a8c7;
 	--highlight: #ff6b9d;
 	--pink: #ff6b9d;
 	--teal: #2dd4bf;
@@ -19,18 +19,18 @@
 }
 
 ::selection {
-	background-color: var(--black);
-	color: var(--black);
+	background-color: var(--purple);
+	color: var(--white);
 }
 html,
 body {
 	margin: auto;
 	padding: 20px;
 	max-width: 70ch;
-	background-color: var(--white);
+	background-color: var(--black);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: var(--black);
+	color: var(--white);
 }
 html,
 body,
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, nav {
 h1,
 strong,
 b {
-	color: var(--black);
+	color: var(--white);
 }
 
 body.dark-mode,
@@ -66,7 +66,7 @@ body.dark-mode nav::after {
 
 .tag-title {
 	font-weight: 400;
-	color: var(--black);
+	color: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -165,7 +165,7 @@ nav {
 	position: sticky;
 	top: 0;
 	text-align: center;
-	background: var(--transwhite);
+	background: var(--transblack);
 	-webkit-backdrop-filter: blur(6px);
 	backdrop-filter: blur(6px);
 	border-bottom: none;
@@ -217,7 +217,7 @@ ul.tags-list {
 .tag {
 	display: inline-block;
 	margin-right: 20px;
-	color: var(--black);
+	color: var(--white);
 	font-size: 0.8rem;
 }
 .tag:hover {
@@ -245,7 +245,7 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: var(--moretransblack);
+	background-color: var(--moretranswhite);
 	font-weight: bold;
 }
 pre {
@@ -256,7 +256,7 @@ pre > code {
 }
 blockquote {
 	border: 1px solid var(--gray);
-	color: var(--black);
+	color: var(--white);
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
@@ -356,7 +356,7 @@ ul li time {
 	border: 2px dashed var(--purple);
 	border-radius: 12px;
 	padding: 1.5rem;
-	background: linear-gradient(135deg, var(--moretransblack) 0%, transparent 50%, var(--moretransblack) 100%);
+	background: linear-gradient(135deg, var(--moretranswhite) 0%, transparent 50%, var(--moretranswhite) 100%);
 	position: relative;
 }
 
@@ -368,7 +368,7 @@ ul li time {
 	position: absolute;
 	top: -0.5rem;
 	left: 1rem;
-	background: var(--white);
+	background: var(--black);
 	padding: 0 0.5rem;
 }
 
@@ -384,7 +384,7 @@ ul li time {
 
 .retro-callout {
 	border-left: 4px solid var(--pink);
-	background: var(--moretransblack);
+	background: var(--moretranswhite);
 	padding: 1rem 1.5rem;
 	border-radius: 0 8px 8px 0;
 	margin: 1.5rem 0;
@@ -402,7 +402,7 @@ ul li time {
 
 .about-card ul li {
 	padding: 0.5rem 0;
-	border-bottom: 1px dashed var(--moretransblack);
+	border-bottom: 1px dashed var(--moretranswhite);
 }
 
 .about-card ul li:last-child {
@@ -426,12 +426,12 @@ ul li time {
 }
 
 .subpage-main {
-	background: var(--white);
-	border: 1px solid var(--moretransblack);
+	background: var(--black);
+	border: 1px solid var(--moretranswhite);
 	border-radius: 12px;
 	padding: 2rem;
 	margin-top: 1rem;
-	box-shadow: 4px 4px 0 var(--pink), 8px 8px 0 var(--moretransblack);
+	box-shadow: 4px 4px 0 var(--pink), 8px 8px 0 var(--moretranswhite);
 	position: relative;
 }
 
@@ -444,8 +444,8 @@ ul li time {
 	bottom: 0;
 	border-radius: 12px;
 	background:
-		radial-gradient(circle at 10% 20%, var(--moretransblack) 0%, transparent 50%),
-		radial-gradient(circle at 90% 80%, var(--moretransblack) 0%, transparent 50%);
+		radial-gradient(circle at 10% 20%, var(--moretranswhite) 0%, transparent 50%),
+		radial-gradient(circle at 90% 80%, var(--moretranswhite) 0%, transparent 50%);
 	pointer-events: none;
 	z-index: 0;
 }
