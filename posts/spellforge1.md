@@ -42,7 +42,7 @@ RE-PC is one of the oldest and largest computer retail recyclers has two in pers
 	<img src="/spellforge1photos/Screenshot%202026-10-12%20at%206.15.36%E2%80%AFPM.png" alt="The main aisle inside RE-PC" loading="lazy" />
 </div>
 
-If I’m being honest, I had no idea what I was looking for, so brining friends was a very good decision.
+If I’m being honest, I had no idea what I was looking for, bringing friends was a very good decision.
 
 In the back of the store they had a really neat little computer museum. You can’t complain when a shopping trip for parts turns into a impromptu history lesson.
 

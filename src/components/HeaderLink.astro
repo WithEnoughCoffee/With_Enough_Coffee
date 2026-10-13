@@ -8,6 +8,11 @@ if (href === "/") {
 	isActive = Astro.url.pathname.startsWith(href);
 }
 
+// Individual articles belong to the Posts section too.
+if (href === "/posts" && Astro.url.pathname.startsWith("/post/")) {
+	isActive = true;
+}
+
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
