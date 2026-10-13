@@ -13,7 +13,7 @@ tags:
 added: "Oct 12 2026"
 ---
 
-##This is a story that starts out with your group chat indulging your bad ideas.
+## This is a story that starts out with your group chat indulging your bad ideas.
 
 I’ve been talking about wanting to get my hands on some hardware for while. I love Mac OS as my daily driver when I need to get things done, like filling out school forms, taking meetings, or recording a podcast. Those are times I just need it to work and having everything syncing across all devices is incredibly helpful, especially when your busy.
 
@@ -28,17 +28,21 @@ Naturally this meant organizing a nerd outing in the group chat. We came up with
 
 
 
-##A Nerdy Treasure Hunt Begins
-
+## A Nerdy Treasure Hunt Begins
+![RE-PC](/spellforge1photos/CA007890-E7F2-462B-8A31-75235E04CF6E_1_105_c.jpeg)
 
 RE-PC is one of the oldest and largest computer retail recyclers has two in person locations and an online shop. The store is staffed with really knowledgeable professionals to help you find what your looking for. You can both buy and sell computer parts. They have everything from vintage radios and projectors to hard to find components.
+
+![RE-PC Floor](/spellforge1photos/Screenshot 2026-10-12 at 6.16.49 PM.png)
+![RE-PC photo1](/spellforge1photos/Screenshot 2026-10-12 at 6.12.22 PM.png)
 
 If I’m being honest, I had no idea what I was looking for, so brining friends was a very good decision.
 
 In the back of the store they had a really neat little computer museum. You can’t complain when a shopping trip for parts turns into a impromptu history lesson.
+![RE-pc computer museum](/spellforge1photos/348s.jpg)
 
 
-##What I scored:
+## What I scored:
 
 The box:
 
@@ -49,11 +53,14 @@ HPE Ethernet 1Gb 2-port 332i Adapter
 Integrated HPE iLO 5 management
 USB boot media running Unraid
 
+![Hpe server](/spellforge1photos/Screenshot 2026-10-13 at 1.26.09 PM.png)
+
 Storage:
 I got 3 x 1 TB 2.5 SATA HDDs $19.95 each.
 
+![HDD Storage](/spellforge1photos/B99747D4-CE85-48D0-B38D-B1AEB227A76F_1_105_c.jpeg)
 
-##Summoning the Software
+## Summoning the Software
 
 Unraid would be the operating system powering Spellforge.
 
@@ -66,7 +73,8 @@ It also provides NAS capabilities and supports Docker containers. Tailscale inte
 I'll be using the Tailscale plugin to access Spellforge remotely. It took less than five minutes to get everything set up and working. For backups, I'm considering Backblaze. Getting the software up and running was the easy part.
 
 
-##The Great Hard Drive Caddy Saga
+## The Great Hard Drive Caddy Saga
+
 Ya’ll this is the part where I considered chucking the box out the window.
 
 Installing the hard drives turned into an ordeal of its own. First, finding compatible drive caddies was surprisingly difficult. Then came the fun part: trying to match the drives to the bays and figure out whether everything would actually fit and work.
@@ -78,14 +86,14 @@ Eventually, a knowledgeable friend helped me get everything set up in a slightly
 And then, finally, we had a working server.
 
 
-##It's Alive!
+## It's Alive!
 
 
 Spellforge is up and running. I can access it remotely, all four drives are running, and I've completed my first update!
 There's still plenty to do.
 
 
-##What's Next?
+## What's Next?
 
 
 In the near future:

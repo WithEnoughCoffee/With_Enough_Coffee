@@ -19,7 +19,7 @@
 }
 
 ::selection {
-	background-color: var(--highlight);
+	background-color: var(--black);
 	color: var(--black);
 }
 html,
