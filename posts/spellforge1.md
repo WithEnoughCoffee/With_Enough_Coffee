@@ -25,6 +25,8 @@ To ruin my excitement enters the cost of hardware in 2026 in middle of theAI boo
 
 Naturally this meant organizing a nerd outing in the group chat. We came up with a plan to hunt for deals at a  recycled hardware store. We headed down to RE-PC a Recycled Computer and Peripherals in Seattle.
 
+<iframe src="https://giphy.com/embed/0Av9l0VIc01y1isrDw" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/drinkdroplet-hero-captain-planet-savetheplanet-0Av9l0VIc01y1isrDw">via GIPHY</a></p>
+
 
 
 
@@ -98,6 +100,8 @@ Installing the hard drives turned into an ordeal of its own. First, finding comp
 <p class="photo-stack"><img src="/spellforge1photos/17DCA059-20A2-484E-AF31-FDFF1F3287CB_1_105_c.jpeg" alt="Measuring the server's drive bays while checking caddy fit" loading="lazy" /></p>
 
 I was genuinely worried about damaging the drives. Over the course of several weeks, I 3D-printed multiple caddy designs (I’m really sad they didn't work because I may or may not have printed them in bright pink) and bought two more on Amazon.
+
+<iframe src="https://giphy.com/embed/G6IATw3N0jhIc" width="480" height="370" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/doctor-who-the-crying-G6IATw3N0jhIc">via GIPHY</a></p>
 
  A lot of colorful language was spoken, and tears were cried into many cups of coffee.
 Eventually, a knowledgeable friend helped me get everything set up in a slightly duck-tape-and-prayers kind of configuration while I waited for the new caddies to arrive.
